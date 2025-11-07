@@ -38,6 +38,9 @@ flowchart LR
 │            └──Model.php
 │        └──views
 │            ├──templates
+│                 ├──pg_footer.php
+│                 ├──pg_header.php
+│                 └──usr_list.php
 │            └───View.php
 │   ├──.htaccess
 │   ├──index.php

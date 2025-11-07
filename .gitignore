@@ -1,0 +1,4 @@
+vendor
+composer.lock
+conf/deployment_enc.inc.php
+.DS_Store

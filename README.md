@@ -41,7 +41,7 @@ flowchart LR
 │            └───View.php
 │   ├──.htaccess
 │   ├──index.php
-│   └──REDME.md #　このファイル
+│   └──REDME.md # READMEファイル
 ```
 
 #### 2.2 各ファイルのソースコード

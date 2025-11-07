@@ -238,7 +238,7 @@ echo $_SERVER['REQUEST_METHOD'] ;
 **ファイル名：** `index.php`（*簡易版：リクエストの有効性をチェックしない*）
 
 
-```php+HTML
+```php
 <?php
 require 'src/models/Model.php';
 require 'src/views/View.php';

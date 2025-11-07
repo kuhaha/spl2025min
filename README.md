@@ -13,8 +13,8 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    id0(Client) -- Request --> id1
-    id1 -- Response -->  id0
+    id0(Client) -- Request --> id2
+    id2 -- Response -->  id0
     id1(View) -- User action --> id2(Controller)
     id2-- Update -->  id1
     id2(Controller) -- CRUD --> id3(Model) -- Notify --> id2

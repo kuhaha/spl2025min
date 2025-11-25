@@ -242,15 +242,18 @@ echo $_SERVER['REQUEST_METHOD'] ;
 
 `.htaccess`ファイルが存在しない場合、エラーになる:
 
- `Not Found`
- `The requested URL was not found on this server.`
+```
+ Not Found
+ The requested URL was not found on this server.
+```
 
 `.htaccess`による転送設定が正しく機能する場合、以下のように出力:
 
- `/spl2025min/index.php`
- `/spl2025min/a/b?id=2`
- `GET`
-
+```
+ /spl2025min/index.php
+ /spl2025min/a/b?id=2`
+ GET
+```
 
 
 **ファイル名：** `index.php`（*簡易版：リクエストの有効性をチェックしない*）
